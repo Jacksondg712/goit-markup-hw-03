@@ -21,8 +21,12 @@ p {
 ul{
     list-style: none;
     display: flex;
-    flex-direction: row;
-    text-decoration: none;
+}
+ 
+.li{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 /* Propiedades para la correcta visualización de las imágenes */
@@ -75,12 +79,11 @@ button:focus{
 }
 
 .container {
-	width: 1600px;
+	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
-    display: flex;
 
 
 
@@ -93,6 +96,10 @@ button:focus{
     margin-right: auto;
 
    
+}
+
+.flex{
+        display: flex;
 }
 /* **************************************************************************  */
 
@@ -111,10 +118,9 @@ button:focus{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    margin-left: 200px;
     margin-top: 24px;
     margin-bottom: 24px;
-    display: flex;
+
 
 }
 
@@ -299,15 +305,14 @@ button:focus{
     flex-direction: column;
     margin-bottom: 60px;
     width: 231px;
-    margin-left: 200px;
+
 
    
 
 }
 
 .colum_four{
-    display: inline;
-    flex-direction: column;
+
     margin-left: -40px;
     margin-top: -28px;
     padding: 0;
@@ -396,20 +401,7 @@ button:focus{
     text-align: center;
 }
 
-.colum_five{
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 106px;
-    margin-bottom: 82px;
 
-}
-
-.colum_img{
-    display: inline;
-}
 
 .button_org{
     margin-right: auto;
@@ -428,11 +420,7 @@ button:focus{
 
 .back_port{
     background-color: #2F303A;    
-    position: absolute;
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1817px;
+
 }
 
 .text-footer_port{
@@ -440,12 +428,6 @@ button:focus{
     font-size: 14px;
     line-height: 1.71;
     color: #FFFFFF;
-    position: absolute;
-    position: absolute;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 100px;
     
 }
 
@@ -454,9 +436,7 @@ button:focus{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    left: 215px;
-    top: 160px;    
-    position: absolute;
+ 
 
 }
 
@@ -465,9 +445,7 @@ button:focus{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    left: 215px;
-    top: 184px;    
-    position: absolute;
+
 }
 
 .webstudio_two_port{
@@ -476,20 +454,9 @@ button:focus{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 50px;
+
 }
 
-.anddress_port{
-    position: absolute;
-    width: 231px;
-    height: 92px;
-    left: 215px;
-    top: 100px;
-}
 
 /* **************************************************************************  */
 
@@ -518,7 +485,7 @@ button:focus{
 
 .link_four{
     margin-top: auto;
-    margin-left: 334px;
+    margin-left: 282px;
     margin-bottom: auto;
   
 }

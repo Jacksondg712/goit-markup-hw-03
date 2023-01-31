@@ -1,5 +1,8 @@
 html {
 	box-sizing: border-box;
+    font-style: normal;
+    font-family: 'Roboto';
+
 }
 *,
 *::after,
@@ -27,6 +30,17 @@ ul{
     list-style: none;
     padding-left: 0;
     margin: 0;
+}
+
+.list {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+/* Clase para restablecer las propiedades básicas de los enlaces */
+.link {
+	text-decoration: none;
+	color: inherit;
 }
 
 /* Propiedades para la correcta visualización de las imágenes */
@@ -222,6 +236,9 @@ button:focus{
     color: #757575;
 }
 
+.qualitis_text{
+    margin-top: 10px;
+}
 
 
 /* **************************************************************************  */
@@ -258,6 +275,21 @@ button:focus{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+}
+
+.team_name{
+    margin-top: 30px;
+
+}
+
+.team_des{
+    margin-top: 10px;
+}
+
+.team_des_pen{
+    margin-top: 10px;
+    margin-right: 25px;
+
 }
 
 
@@ -306,6 +338,8 @@ button:focus{
     margin-bottom: 60px;
     width: 231px;
 
+    
+
 
    
 
@@ -313,9 +347,10 @@ button:focus{
 
 .colum_four{
 
-    margin-left: -40px;
-    margin-top: -28px;
-    padding: 0;
+    margin-left: 0px;
+    margin-top: 2px;
+    padding-top: 0;
+
 
 
 
@@ -406,6 +441,7 @@ button:focus{
 .button_org{
     margin-right: auto;
     margin-left: auto;
+    margin-top: 106px;
 }
 
 .img_port{
@@ -420,6 +456,7 @@ button:focus{
 
 .back_port{
     background-color: #2F303A;    
+    margin-top: 82px;
 
 }
 
@@ -575,13 +612,13 @@ button:focus{
 }
 
 .link_seventeen{
-margin-left: 0;
-margin-top: 9px;
+margin-left: 0px;
+margin-top: -4px;
 }
 
 .link_eighteen{
-    margin-left: -1px;
-    margin-top: -4px;
+    margin-left: -120px;
+    margin-top: 15px;
 }
 .link_nineteen{
     margin-left: 280px;

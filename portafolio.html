@@ -10,133 +10,120 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     </head>
 <body>
-    <header class="header">
-        <div class="container flex">
-       
-
-                <a class="link" href="WebStudio"><p class="webstudio">WebStudio</p></a>
-                    <ul class="list">
-                            <li class="link_one"><a class="princ_nav link" href="index.html">Estudio</a></li>
-                            <li class="link_two"><a class="principal link" href="portafolio.html">Portafolio</a></li>
-                            <li class="link_third"><a class="princ_nav link" href="#">Contactos</a></li>
-
-                    </ul>
-
-            <ul class="list">
-                        
-                <li class="link_four"><a class="text-info link" href="info@devstuido.com">info@devstudio.com</a></li>
-                <li class="link_five"><a class="text-info link" href="+52555529">+52 55 5529 6000</a></li>
-                                        
-            </ul>
-        </div>
-    </header>
-    <main>
-        <section>
+     <header class="header">
             <div class="container flex">
-                <div class="colum_five">
-                    <div class="button_org">
+                <a href="WebStudio"><p class="header__web">WebStudio</p></a>
+                <ul class="list">
+                    <li class="header__one"><a class="header__nav link" href="index.html">Estudio</a></li>
+                    <li class="header__two"><a class="header__prin link" href="portafolio.html">Portafolio</a></li>
+                    <li class="header__third"><a class="header__nav link" href="#">Contactos</a></li>
+
+                </ul>
+
+                <ul class="list">     
+                    <li class="header__four"><a class="header__info link" href="info@devstuido.com">info@devstudio.com</a></li>
+                    <li class="header__five"><a class="header__info link" href="+52555529">+52 55 5529 6000</a></li>                    
+                </ul>
+            </div>
+        </header>
+    <main>
+        <section class="port">
+            <div class="container flex">
+                    <div class="wrap">
                         <ul class="list">
-                            <li class="link_nineteen"> <button class="button_portafolio" style="background-color: #2196F3" type="button">Todo</button></li>
-                            <li class="link_twenty"> <button class="button_portafolio_two"   type="button">Sitios-Web</button></li>
-                            <li class="link_twenty_one"> <button class="button_portafolio_three" type="button">Aplicaciones</button></li>
-                            <li class="link_twenty_tow"> <button class="button_portafolio_four" type="button">Diseño</button></li>
-                            <li class="link_twenty_three"> <button class="button_portafolio_five" type="button">Marketing</button></li>
+                            <li> <button class="button_portafolio" style="background-color: #2196F3" type="button">Todo</button></li>
+                            <li> <button class="button_portafolio_two"   type="button">Sitios-Web</button></li>
+                            <li> <button class="button_portafolio_three" type="button">Aplicaciones</button></li>
+                            <li> <button class="button_portafolio_four" type="button">Diseño</button></li>
+                            <li> <button class="button_portafolio_five" type="button">Marketing</button></li>
+                        </ul>
+                    
+                        <ul class="list port__list">
+                            <li class="port__butitem">
+                                <a class="link" href="#">
+                                    <img src="./images/briefcase1.png" alt="Tecnoduck" width="370">
+                                    <h3 class="port__caption">Tecnoduck</h3>
+                                    <p class="port__text">Sitios-Web</p>
+                                </a>
+                            </li>
+                            <li class="port__butitem">
+                                <a class="link" href="#">
+                                    <img src="./images/briefcase2.png" alt="Poster de nueva orleans vs estrella dorada" width="370">
+                                    <h3 class="port__caption">Póster de Nueva Orleans vs Estrella Dorada </h3>
+                                    <p class="port__text">Diseño</p>
+                                </a>
+                            </li>
+                            <li class="port__butitem">
+                                <a class="link" href="#">
+                                    <img  src="./images/briefcase3.png" alt="Restaurante Seafood" width="370">
+                                    <h3 class="port__caption">Restaurante Seafood</h3>
+                                    <p class="port__text">Aplicaciones</p>
+                                </a>
+                            </li>
+                            
+                
+                            <li class="port__butitem">
+                                <a class="link" href="#">
+                                    <img src="./images/briefcase4.png" alt="Proyecto Prime" width="370">
+                                    <h3 class="port__caption">Proyecto Prime</h3>
+                                    <p class="port__text">Marketing</p>
+                                </a>
+                            </li>
+                            <li class="port__butitem">
+                                <a class="link" href="#">
+                                    <img src="./images/briefcase5.png" alt="Proyecto Cajas" width="370">
+                                    <h3 class="port__caption">Proyecto Cajas</h3>
+                                    <p class="port__text">Apliaciones</p>
+                                </a>
+                            </li>
+                            <li class="port__butitem">
+                                <a class="link" href="#">
+                                    <img src="./images/briefcase6.png" alt="La inspiracion no tiene limites" width="370">
+                                    <h3 class="port__caption">La inspiración no tiene limites</h3>
+                                    <p class="port__text">Sitios-Web</p>
+                                </a>
+                            </li>
+                            
+                            
+                            <li class="port__butitem">
+                                <a class="link" href="#">
+                                    <img src="./images/briefcase7.png" alt="Edicion limitada" width="370">
+                                    <h3 class="port__caption"> Edición Limitada</h3>
+                                    <p class="port__text">Diseño</p>
+                                </a>
+                            </li>
+                            <li class="port__butitem">
+                                <a class="link" href="#">
+                                    <img class="port__images" src="./images/briefcase8.png" alt="Proyecto LAB" width="370">
+                                    <h3 class="port__caption">Proyecto LAB</h3>
+                                    <p class="port__text">Marketing</p>
+                                </a>
+                            </li>
+                            <li class="port__butitem">
+                                <a class="link" href="#">
+                                    <img src="./images/briefcase9.png" alt="Negocio en crecimiento" width="370">
+                                    <h3 class="port__caption">Negocio en Crecimiento</h3>
+                                    <p class="port__text">Apliaciones</p>
+                                </a>
+                            </li> 
                         </ul>
                     </div>
-                    
-                    <ul class="list">
-                        <div class="colum_img">
-                            <div class="img_port">
-                                <li class="link_twnty_four">
-                                    <a class="link" href="#">
-                                        <img class="images_port" src="./images/briefcase1.png" alt="Tecnoduck" width="370">
-                                        <h3 class="caption-projects">Tecnoduck</h3>
-                                        <p class="text-team-projects">Sitios-Web</p>
-                                    </a>
-                                </li>
-                                <li class="link_twnty_five">
-                                    <a class="link" href="#">
-                                        <img class="images_port" src="./images/briefcase2.png" alt="Poster de nueva orleans vs estrella dorada" width="370">
-                                        <h3 class="caption-projects">Póster de Nueva Orleans vs Estrella Dorada </h3>
-                                        <p class="text-team-projects">Diseño</p>
-                                    </a>
-                                </li>
-                                <li class="link_twnty_six">
-                                    <a class="link" href="#">
-                                        <img class="images_port" src="./images/briefcase3.png" alt="Restaurante Seafood" width="370">
-                                        <h3 class="caption-projects">Restaurante Seafood</h3>
-                                        <p class="text-team-projects">Aplicaciones</p>
-                                    </a>
-                                </li>
-                            </div>
-                            <div class="img_port">
-                                <li class="link_twnty_seven">
-                                    <a class="link" href="#">
-                                        <img class="images_port"  src="./images/briefcase4.png" alt="Proyecto Prime" width="370">
-                                        <h3 class="caption-projects">Proyecto Prime</h3>
-                                        <p class="text-team-projects">Marketing</p>
-                                    </a>
-                                </li>
-                                <li class="link_twnty_eight">
-                                    <a class="link" href="#">
-                                        <img src="./images/briefcase5.png" alt="Proyecto Cajas" width="370">
-                                        <h3 class="caption-projects">Proyecto Cajas</h3>
-                                        <p class="text-team-projects">Apliaciones</p>
-                                    </a>
-                                </li>
-                                <li class="link_twnty_nine">
-                                    <a class="link" href="#">
-                                        <img class="images_port" src="./images/briefcase6.png" alt="La inspiracion no tiene limites" width="370">
-                                        <h3 class="caption-projects">La inspiración no tiene limites</h3>
-                                        <p class="text-team-projects">Sitios-Web</p>
-                                    </a>
-                                </li>
-                            </div>
-                            <div class="img_port">
-                                <li class="link_thirty_one">
-                                    <a class="link" href="#">
-                                        <img class="images_port" src="./images/briefcase7.png" alt="Edicion limitada" width="370">
-                                        <h3 class="caption-projects"> Edición Limitada</h3>
-                                        <p class="text-team-projects">Diseño</p>
-                                    </a>
-                                </li>
-                                <li class="link_thirty_two">
-                                    <a class="link" href="#">
-                                        <img class="images_port" src="./images/briefcase8.png" alt="Proyecto LAB" width="370">
-                                        <h3 class="caption-projects">Proyecto LAB</h3>
-                                        <p class="text-team-projects">Marketing</p>
-                                    </a>
-                                </li>
-                                <li class="link_thirty_three">
-                                    <a class="link" href="#">
-                                        <img class="images_port" src="./images/briefcase9.png" alt="Negocio en crecimiento" width="370">
-                                        <h3 class="caption-projects">Negocio en Crecimiento</h3>
-                                        <p class="text-team-projects">Apliaciones</p>
-                                    </a>
-                                </li>
-                            </div>
-                        </div>
-                    </ul>
-                </div>
             </div>
         </section>
 
     </main>
     
 
-    <footer class="back_port">
+    <footer class="footer">
         <div class="container flex">
-            <div class="colum_third">
-                <a href=""><p class="webstudio_two list">WebStudio</p></a>
+            <div class="footer__colum">
+                <a class="link" href="#"><p class="webstudio_two">WebStudio</p></a>
                 <address>
-                        <a href="enlace google map" target="_blank" rel="noopener noreferrer"><p class="text-footer"> Calz. Ticomán 500, ciudad de mexico, CDMX, México</p></a>
-                            <ul class="list">
-                                <!-- <div class="colum_four"> -->
-                                    <li  class="link_seventeen"><a class="text-footer-info link" href="infio@example.com">info@example.com</a></li>
-                                    <li class="link_eighteen"><a class="text-footer-info link" href="+5255296000">+52 5529 6000</a></li>
-                                <!-- </div> -->
+                        <a class="link footer__text" href="enlace google map" target="_blank" rel="noopener noreferrer"><p class="footer__text"> Calz. Ticomán 500, ciudad de mexico, CDMX, México</p></a>
+                            <ul class="list footer__list">
+                                    <li class="footer__item"><a class="footer__info link" href="infio@example.com">info@example.com</a></li>
+                                    <li class="footer__item"><a class="footer__info link" href="+5255296000">+52 5529 6000</a></li>
                             </ul>
-                  
                 </address>
             </div>
         </div>

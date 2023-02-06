@@ -11,7 +11,7 @@ html {
 }
 body{
     font-style: normal;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 /* Estilos para poner a cero la sangría superior de los elementos */
 h1,
@@ -277,19 +277,13 @@ button:focus{
 .qualities__list{
     display: flex;
     flex-wrap: wrap;
-    /* gap: 10px; */
-    margin-left: auto;
-    margin-right: auto;
+    gap: 23px;
+
   }
 
 .qualities__item{
     flex-basis: calc((100% - 90px)/4);
-    width: 270px;
-    padding: 10px;
 
-
-}
-.qualities__item p{
 }
 
 
@@ -318,16 +312,12 @@ button:focus{
 .dedication__list{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 28px;
     margin-top: 94px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
 .dedication__item{
     flex-basis: calc((100% - 60px)/3);
-    margin-left: auto;
-    margin-right: auto;
 
 }
 
@@ -384,10 +374,9 @@ button:focus{
 .team__list{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 28px;
     margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+
   }
 
 .team__item{
@@ -548,8 +537,7 @@ button:focus{
     display: flex;
     flex-wrap: wrap;
     margin-top: 4px;
-    margin-left: auto;
-    margin-right: auto;
+    gap: 28px;
     padding-bottom: 147px;
   }
 
